@@ -1,0 +1,17 @@
+{
+  "name": "starterpack-EricZhang0108",
+  "version": "1.0.0",
+  "description": "SA3",
+  "main": "src/index.js",
+  "repository": "https://github.com/dartmouth-cs52-19S/starterpack-EricZhang0108.git",
+  "author": "Eric Zhang <ericzhang0108@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
