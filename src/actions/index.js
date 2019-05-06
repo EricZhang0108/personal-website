@@ -1,4 +1,4 @@
-// keys for actiontypes
+// placeholders for actiontypes
 export const ActionTypes = {
   INCREMENT: 'INCREMENT',
   DECREMENT: 'DECREMENT',

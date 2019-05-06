@@ -1,17 +1,170 @@
 body, html {
     font-family: "Roboto", sans-serif;
-    background: linear-gradient(to bottom, #87e0fd 0%,#53cbf1 40%,#05abe0 100%);
+    background: #b5bfce;
     height: 100%;
+    display: flex;
 }
 
-.logo {
-    background-image: url('img/corgi.jpg');
-    width: 100px;
-    height: 100px;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
+#typing h1{
+    color: white;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+      typing 3s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
 
-.active {
-    color: pink;
-}
+  #typing {
+      width: 280px;
+  }
+
+  .display {
+    width: 100%;
+   }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+  }
+
+  .navbar {
+      display: flex;
+      align-items: center;
+  }
+
+  .navbar li {
+      list-style: none;
+      padding: 20px;
+      font-size: 30px;
+  }
+
+  .navbar li a {
+      text-decoration: none;
+      color: white;
+  }
+
+  .listing-first a {
+      text-decoration: none;
+      color: black;
+  }
+
+  .navbar li a:hover {
+      color: orange;
+  }
+
+  .landing-page {
+      margin-left: 50px;
+      width: 100%;
+  }
+
+  .landing-pic {
+      display: flex;
+      flex-direction: row-reverse;
+      width: 100%;
+  }
+
+  #name {
+      color: #ed9b5c;
+  }
+
+  .footer {
+      margin-left: 50px;
+      color: orange;
+  }
+
+  .footer i {
+      padding: 20px;
+  }
+
+  .footer a{
+    color: orange;
+  }
+
+  #naperville {
+      color: red;
+  }
+
+  .dartmouth {
+      color: #2E693F;
+  }
+
+  .map-pic {
+      display: flex;
+      justify-content: center;
+  }
+
+  img, .firefite, .dartdash { 
+      transition: all .2s ease-in-out; 
+  }
+  img:hover, .firefite:hover, .dartdash:hover{ 
+      transform: scale(1.1); 
+  }
+
+  .firefite:hover, .dartdash:hover {
+      background-color: orange;
+      color: white;
+  }
+
+  .contact-button{
+    background-color: orange;
+    color: white;
+    border: none;
+    font-size: 30px;
+    width: 120px;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  .contact-button:hover {
+      background-color:white;
+      color: orange;
+      box-shadow: 10px 10px 5px grey;
+      cursor: pointer;
+  }
+
+  .education-text ul {
+      list-style: circle;
+  }
+
+  .listing-first {
+      display: flex;
+      justify-content: center;
+  }
+
+  .hackdartmouth {
+      width: 300px;
+      height: auto;
+      justify-self: center;
+      margin-left: 50px;
+  }
+
+  .android-pic {
+      height: 268px;
+      width: auto;
+  }
+
+  .firefite-pic, .dartdash-pic {
+      height: 300px;
+  }
+
+  .firefite, .dartdash {
+      background-color: white;
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+      margin: 30px;
+  }
+
+  .hobbies-pic {
+      display: flex;
+      justify-content: space-evenly;
+  }
