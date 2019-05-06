@@ -7,7 +7,7 @@ const Hobbies = (props) => {
     <div>
       <div className="landing-page">
         <div className="hobbies-text">
-          <h1>I love to travel and volunteer whenver I can.</h1>
+          <h1>I love to travel and volunteer whenever I can.</h1>
           <h1>Recently, I have also gotten into longboarding too!</h1>
         </div>
         <div className="hobbies-pic">
