@@ -1,5 +1,5 @@
-// the starting point for your redux store
-// this defines what your store state will look like
+// the starting point for redux store
+// defines what the store state will look like
 import { combineReducers } from 'redux';
 
 const rootReducer = combineReducers({

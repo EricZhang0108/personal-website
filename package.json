@@ -1,9 +1,9 @@
 {
-  "name": "starterpack-EricZhang0108",
+  "name": "Personal-Website-EricZhang0108",
   "version": "1.0.0",
-  "description": "SA3",
+  "description": "Eric Zhang's Personal Website",
   "main": "src/index.js",
-  "repository": "https://github.com/dartmouth-cs52-19S/starterpack-EricZhang0108.git",
+  "repository": "https://github.com/EricZhang0108/personal-website.git",
   "author": "Eric Zhang <ericzhang0108@gmail.com>",
   "license": "MIT",
   "scripts": {

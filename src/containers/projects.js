@@ -2,6 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 
+// the projects page
+// TODO: Add more projects to the page
 const Projects = (props) => {
   return (
     <div>

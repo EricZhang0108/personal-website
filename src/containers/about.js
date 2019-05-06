@@ -2,6 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 
+// the about page
+// TODO: Implement Google Maps API with markers and infoboxes
 const About = (props) => {
   return (
     <div>

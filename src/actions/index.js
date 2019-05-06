@@ -4,7 +4,7 @@ export const ActionTypes = {
   DECREMENT: 'DECREMENT',
 };
 
-
+// ignore for now
 export function increment() {
   return {
     type: ActionTypes.INCREMENT,

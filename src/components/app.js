@@ -9,6 +9,7 @@ import Projects from '../containers/projects';
 import Hobbies from '../containers/hobbies';
 import Contact from '../containers/contact';
 
+// navbar and links
 const Nav = (props) => {
   return (
     <nav>
@@ -24,10 +25,12 @@ const Nav = (props) => {
   );
 };
 
+// fallback for 404
 const FallBack = (props) => {
-  return <div>URL Not Found</div>;
+  return <div>URL Not Found :(</div>;
 };
 
+// main app to render with the switch and footer
 const App = (props) => {
   return (
     <Router>
